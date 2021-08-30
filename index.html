@@ -13,41 +13,64 @@
     </style>
 </head>
 
-<body>
+<body onload="onload()">
     
     
     <div class="pageCenter">
         <div style="background-color: black; height: 100px">
         </div>
         <div class="navbar">
-            <a href="#home">Home</a>
+            <img height="50px" src="assets/images/logowhite.png">
+            <a href="/">Home</a>
             
             <div class="dropdown">
                 <button class="dropbtn"> About Us </button>
                 <div class="dropdown-content">
-                    <a href="#">thingy</a>
-                    <a href="#">thingamabob</a>
+                    <a href="/about-us/">About Us</a>
+                    <a href="/about-us/team/">Team</a>
                 </div>
             </div>
             
-            <a href="#internTeam">Intern Team</a>
+            <a href="/intern/">Intern Team</a>
             <div class="dropdown">
                 <button class="dropbtn">Past Events
                 </button>
                 <div class="dropdown-content">
-                    <a href="#">thing</a>
-                    <a href="#">thing 2</a>
-                    <a href="#">thing 3</a>
+                    <a href="/past-events/">Past Events</a>
+                    <a href="/past-events/2p/">2P</a>
+                    <a href="/past-events/eec/">EEC</a>
                 </div>
             </div>
 
             <a href="#startChapter">Start A Chapter</a>
-            <a href="#contact">Contact Us</a>
+            <a href="/contact/">Contact Us</a>
+            
         </div>
         
         <div style="background-color: black; height: 100px">
         </div>
-
+        <div id="impact">
+            <h2>IMPACT</h2>
+            <div>
+                <h2 id="girls-involved"></h2>
+                GIRLS INVOLVED WITH EMGirls
+            </div>
+            <div>
+                <h2 id="countries-involved"></h2>
+                COUNTRIES
+            </div>
+            <div>
+                <h2 id="mentors-involved"></h2>
+                MENTORS, SPEAKERS, & JUDGES
+            </div>
+        </div>
+        <div id="video-stuff">
+            check out our interview with CTV News!<br>
+            October 2020<br>
+            <video width="100%" controls>
+                <source src="assets/videos/EMGirls Interview.mp4" type="video/mp4">
+            </video>
+        </div>
 
         <footer style = "padding-left: 150px; padding-right:150px; padding-top:20px; padding-bottom:20px">
             <table>
@@ -72,7 +95,10 @@
 
                     <td>
                         <h6 style = "color: black; ">
-                            instagram facebook email linkedin stuf stuff stuff stuff stuff
+                            <a href="https://www.instagram.com/emgirls_org" target="_blank"><img width="15%" src="assets/images/instagramlogo.png"></a>
+                            <a href="https://www.facebook.com/emgirls.ca/" target="_blank"><img width="15%" src="assets/images/facebooklogo.png"></a>
+                            <a href="mailto:info@emgirls.org" target="_blank"><img width="15%" src="assets/images/maillogo.png"></a>
+                            <a href="https://ca.linkedin.com/company/emgirls" target="_blank"><img width="15%" src="assets/images/linkedinlogo.png"></a>
                         </h6>
                     </td>
                 </tr>
@@ -83,3 +109,4 @@
     </div>
     
 </body>
+<script src="/js/script.js"></script>

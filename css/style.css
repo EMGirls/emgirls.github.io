@@ -27,6 +27,12 @@ h6{   /* footer*/
     top:0;
     width: 1000px;
 }
+
+.navbar img {
+  float: left;
+  padding-left: 1em;
+  padding-right: 3em;
+}
   
 .navbar a {
     float: left;
@@ -54,7 +60,7 @@ h6{   /* footer*/
   }
   
   .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+    color: black;
   }
   
   .dropdown-content {
@@ -82,6 +88,11 @@ h6{   /* footer*/
   .dropdown:hover .dropdown-content {
     display: block;
   }
+
+#impact div {
+  width: 30%;
+  display: inline-block;
+}
 
 footer {
     text-align: left;
