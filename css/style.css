@@ -94,6 +94,15 @@ h6{   /* footer*/
   display: inline-block;
 }
 
+.black-text-body {
+  color: black;
+}
+
+.top-header {
+  padding-top: 1em;
+  position: relative;
+}
+
 footer {
     text-align: left;
     position:absolute;
