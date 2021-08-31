@@ -13,7 +13,6 @@ h6{   /* footer*/
 }
 .pageCenter{
     width: 100%;
-    height: 2000px; /* delete afterwards!!!*/
     position: absolute;
     left: 0;
     right:0;
