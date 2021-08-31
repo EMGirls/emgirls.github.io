@@ -97,12 +97,13 @@ h6{   /* footer*/
 .black-text-body {
   color: black;
   padding-left: 1em;
-  padding-top: 3em;
+  padding-top: 5vw;
   text-align: left;
 }
 
 .top-header {
   position: relative;
+  text-align: center;
 }
 
 .left-header {
