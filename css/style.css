@@ -14,8 +14,9 @@ h6{   /* footer*/
 
 h2{
     margin: 0;
-    font-size: 6vw;
+    font-size: 9vw;
     padding:0;
+    padding-bottom: 12%;
 }
 
 .pageCenter{
@@ -150,6 +151,17 @@ footer {
     color: white;
     bottom:0;
 }
+
+
+.impactText{
+    font-size: 2vw;
+    margin: 0;
+}
+
+.aboutUsText{
+  font-size: 1.8vw;
+}
+
 .btn {
     align-items: auto;
     width: 30%;
@@ -159,15 +171,39 @@ footer {
     color: white;
     border-radius: 13vw;
     font-family: inherit;
-    font-size: 2.2vw;
+    font-size: 2.9vw;
     font-weight: 200;
+    cursor: pointer;
+
+
+    display: inline-block;
+    box-shadow: 1px 1px 1px grey;
+    transition: all 0.5s;
+}
+.btn:hover{
+  background-color: grey; 
+}
+.btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
 }
 
-.impactText{
-    font-size: 2vw;
-    margin: 0;
+.btn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
 }
 
-.aboutUsText{
-  font-size: 1.8vw;
+.btn:hover span {
+  padding-right: 10px;
+}
+
+.btn:hover span:after {
+  opacity: 1;
+  right: 0;
 }
