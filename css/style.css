@@ -1,3 +1,8 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
 body{
     font-family: "Playfair Display", monospace;
     background-color:white;
@@ -170,4 +175,26 @@ footer {
 
 .aboutUsText{
   font-size: 1.8vw;
+}
+
+.about-us-team-header {
+  background-image: url("/assets/images/teamtranslucentwithiamge.png");
+  width: 100%;
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 2em;
+}
+
+.about-us-team-header h1 {
+  font-size: 5em;
+  padding-bottom: 0;
+}
+
+.about-us-team-header h3 {
+  padding-top: 0;
+  text-align: right;
+  width: 70%;
 }
