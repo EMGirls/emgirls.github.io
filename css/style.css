@@ -130,6 +130,7 @@ h2{
 
 .inline-block {
   display: inline-block;
+  vertical-align: middle;
 }
 
 .twenty-percent-width {
