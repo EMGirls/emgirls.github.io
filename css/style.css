@@ -405,3 +405,50 @@ footer {
   color: black;
   text-align: center;
 }
+
+.intern-gen1-labels {
+  border-radius: 10vh;
+  display: inline-block;
+  width: 25%;
+  border: #ea9999 solid;
+  padding: 2vh;
+}
+
+/*TODO: figure out how to make this not die*/
+.intern-face {
+  position: relative;
+  width: 30%;
+  text-align: center;
+}
+
+.intern-face:hover div{
+  background-color:#ea9999;
+  transition: .5s ease;
+  border-radius: 50%;
+  visibility: visible;
+}
+
+.intern-face div img {
+  display: inline-block;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.intern-face div {
+  border: blue solid;
+}
+.intern-face > div {
+  height: 100%;
+  width: 60%;
+  border-radius: 50%;
+  vertical-align:middle;
+  top: 0;
+  left: 0;
+  position: absolute;
+  visibility: hidden;
+  font-size: 1vh;
+}
+
+.intern-face i {
+  color: #ea9999;
+}
