@@ -452,3 +452,17 @@ footer {
 .intern-face i {
   color: #ea9999;
 }
+
+.teamBtn{
+  align-items: auto;
+  width: 60%;
+  padding: 1%;
+  background-color: white;
+  border: 3px black solid;
+  color: black;
+  border-radius: 13vw;
+  font-family: inherit;
+  font-size: 2.5vw;
+  cursor: pointer;
+  margin:2%;
+}
