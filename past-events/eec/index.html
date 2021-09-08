@@ -53,7 +53,7 @@
         <!-- Header -->
         <div class="intern-eec-header">
             <h1>EMGirls Entrepreneurial Competition</h1>
-            <button> Sign Up! </button>
+            <a href="https://forms.gle/h7gqvbSkHMex2ysLA" target="_blank"><button> Sign Up! </button></a>
         </div>
         
         <div style = "background-color: white;">
@@ -87,8 +87,21 @@
                 EMGirls Entrepreneurial Competition offers $1000+ in prizes!
             </p>
             <!-- Vivian animation stuff -->
-
-            <table style="margin: auto; padding-bottom: 1%;">
+            <div id="competition-prize-amounts">
+                <div class="class-that-exists-for-the-purpose-of-having-less-inline-css">
+                    $250
+                    <div class="rect-block-to-mess-with" id="second">2nd</div>
+                </div>
+                <div class="class-that-exists-for-the-purpose-of-having-less-inline-css">
+                    $500
+                    <div class="rect-block-to-mess-with" id="first">1st</div>
+                </div>
+                <div class="class-that-exists-for-the-purpose-of-having-less-inline-css">
+                    $150
+                    <div class="rect-block-to-mess-with" id="third">3rd</div>
+                </div>
+            </div>
+            <table style="margin: auto; padding-bottom: 1%;" id="container-for-the-word-animation-thing-something">
                 <tr>
                     <td> </td>
                     <td style="vertical-align: bottom; line-height: 6vw;">
@@ -166,3 +179,5 @@
 
     </div>
 </body>
+<script src="/js/check-bounds.js"></script>
+<script src="/js/eec-script.js"></script>

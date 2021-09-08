@@ -337,3 +337,21 @@ footer {
   cursor: pointer;
   margin:6%;
 }
+
+.rect-block-to-mess-with {
+  background-color: white;
+  display: block;
+  bottom: 0;
+}
+
+#competition-prize-amounts {
+  position: relative;
+  vertical-align: bottom;
+  align-items: bottom;
+}
+
+.class-that-exists-for-the-purpose-of-having-less-inline-css {
+  width: 30%;
+  display: inline-block;
+  vertical-align: bottom;
+}
