@@ -2,7 +2,135 @@
 <head>
     <title>Contact Us</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Playfair Display' rel='stylesheet'>
+    <link rel="icon" href="/assets/images/logowhite.png">
 </head>
 <body>
-    
+    <!-- Menu -->
+    <table class="navbar">
+        <td style="width:15%">
+            <a href="/"><img width="50%" style="vertical-align: center;" src="/assets/images/logowhite.png"></a>
+        </td>
+        <td style="width:14%">
+            <div class="dropdown">
+                <button class="dropbtn"> About Us </button>
+                <div class="dropdown-content">
+                    <a href="/about-us/">About Us</a>
+                    <a href="/about-us/team/">Team</a>
+                </div>
+            </div>
+        </td>
+
+        <td style="width:15%">
+            <div class="dropdown">
+                <button class="dropbtn" style = "color:black;"> Interm Team </button>
+                <div class="dropdown-content">
+                    <a href="/intern/">Intern Team</a>
+                    <a href="/intern/gen1/">1st Gen</a>
+                    <a href="/intern/gen2/">2nd Gen</a>
+                </div>
+            </div>
+        </td>
+
+        <td style="width:15%">
+            <div class="dropdown">
+                <button class="dropbtn">Past Events
+                </button>
+                <div class="dropdown-content">
+                    <a href="/events/">Events</a>
+                    <a href="/events/2p/">2P Program</a>
+                    <a href="/events/eec/">EEC</a>
+                </div>
+            </div>
+        </td>
+
+        <td style="width:15%">
+            <a href="/contact/">Contact Us</a>
+        </td>
+        <td>
+            <a href="/partners/">Partners</a>
+        </td>
+    </table>
+    <!--header-->
+    <div class="imgBackground" 
+        style="background-image: url('/assets/images/contactusheader.png');
+        width:100%; height:50%;text-align: center; vertical-align: middle;">
+    <h1 style="display: inline-block; text-align: center; font-size: 7vh;">CONTACT US</h1>
+    </div>
+    <!--form-->
+    <form style="color: black">
+        <div style="display: inline-block; width: 45%; padding-left: 5%">
+            <b>Name of Business</b><br>
+            <input type="text" style="width: 90%" id="name-of-business" required>
+        </div>
+        <div style="display: inline-block; width: 45%;">
+            <b>Email</b><br>
+            <input type="email" style="width: 90%" id="email" required>
+        </div>
+        <div style="padding: 0 5% 0 5%">
+            <b>Message</b><br>
+            <textarea style="width: 95%; height: 30%;" id="message" required></textarea>
+        </div>
+        <button 
+            style="padding: 0.5% 5%;
+            margin-left: 5%;
+            text-align: center;
+            border-radius: 10vh;
+            background-color: white;
+            border: solid 1px black;"
+            onclick="onSend()">
+            Send
+        </button>
+    </form>
+    <div style="padding-left: 5%;">
+        <a href="https://www.instagram.com/emgirls_org" target="_blank"><img width="20%"
+            src="/assets/images/instagramlogo.png"></a>
+        <a href="https://www.facebook.com/emgirls.ca/" target="_blank"><img width="20%"
+                src="/assets/images/facebooklogo.png"></a>
+        <a href="mailto:info@emgirls.org" target="_blank"><img width="20%"
+                src="/assets/images/maillogo.png"></a>
+        <a href="https://ca.linkedin.com/company/emgirls" target="_blank"><img width="20%"
+                src="/assets/images/linkedinlogo.png"></a>
+    </div>
+    <!-- Footer -->
+    <div style="padding-left: 10%;padding-right:10%; padding-top:20px; padding-bottom:20px; text-align: left;">
+        <table>
+            <tr>
+                <td style="width:40%;">
+                    <h6 style="font-size: 3vw;"><b>About Us</b></h6>
+                </td>
+                <td style="width:30%">
+                    <h6 style="font-size: 3vw;"><b>Get in Touch</b></h6>
+                </td>
+            </tr>
+
+
+            <tr style="vertical-align: top;">
+                <td style="padding-right: 8%">
+                    <h6 style="color: black; ">
+                        EMGirls is a youth-led nonprofit organization that aims to
+                        empower girls by continually challenging them to step out
+                        of their comfort zones.
+                    </h6>
+                </td>
+
+                <td>
+                    <h6 style="color: black;">
+                        <a href="https://www.instagram.com/emgirls_org" target="_blank"><img width="20%"
+                                src="/assets/images/instagramlogo.png"></a>
+                        <a href="https://www.facebook.com/emgirls.ca/" target="_blank"><img width="20%"
+                                src="/assets/images/facebooklogo.png"></a>
+                        <a href="mailto:info@emgirls.org" target="_blank"><img width="20%"
+                                src="/assets/images/maillogo.png"></a>
+                        <a href="https://ca.linkedin.com/company/emgirls" target="_blank"><img width="20%"
+                                src="/assets/images/linkedinlogo.png"></a>
+                    </h6>
+                </td>
+            </tr>
+
+        </table>
+
+    </div>
+
 </body>
+<script src="/js/contact-script.js"></script>
