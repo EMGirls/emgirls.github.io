@@ -354,6 +354,9 @@ footer {
   width: 30%;
   display: inline-block;
   vertical-align: bottom;
+  font-size: 3vh;
+}
+
 .intern-header{
   background-image: url("/assets/images/intern/internteamheader.png");
   background-repeat: no-repeat;
