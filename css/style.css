@@ -354,7 +354,7 @@ footer {
   width: 30%;
   display: inline-block;
   vertical-align: bottom;
-  font-size: 3vh;
+  font-size: 4.57vh;
 }
 
 .intern-header{
@@ -394,4 +394,14 @@ footer {
   font-size: 2.9vw;
   cursor: pointer;
   height:10vw;
+}
+
+.learn-more-button-thing {
+  display: inline-block;
+  background-color: #ea9999;
+  border-radius: 50%;
+  width: 2.7vw;
+  height: 2.7vw;
+  color: black;
+  text-align: center;
 }
