@@ -512,6 +512,30 @@ footer {
   background-image: url("/assets/images/intern/headshots/janeliu.png");
 }
 
+.sophie-yang {
+  background-image: url("/assets/images/intern/headshots/SophieYang.jpg");
+}
+
+.shrena-sribalan {
+  background-image: url("/assets/images/intern/headshots/Shrena\ Sribalan.jpg");
+}
+
+.evelyn-lee {
+  background-image: url("/assets/images/intern/headshots/Evelyn\ Lee.\ PhotoHEIC.heif");
+}
+
+.jennifer-lee {
+  background-image: url("/assets/images/intern/headshots/Jennifer\ Lee.png");
+}
+
+.isah-sidhu {
+  background-image: url("/assets/images/intern/headshots/IshaSidhu.jpg");
+}
+
+.sahana-abbennagari {
+  background-image: url("/assets/images/intern/headshots/Sahana\ Abbennagari.png");
+}
+
 .face:hover{
   background-image: url("/assets/images/intern/pinkblock.png");
   color: rgba(0, 0, 0, 1);
