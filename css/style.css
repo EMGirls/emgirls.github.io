@@ -417,36 +417,28 @@ footer {
 /*TODO: figure out how to make this not die*/
 .intern-face {
   position: relative;
+  display: inline-block;
   width: 30%;
   text-align: center;
 }
 
-.intern-face:hover div{
-  background-color:#ea9999;
-  transition: .5s ease;
+.intern-face div {
+  background-color: #ea9999;
+  width: 18%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 10%;
+  background-size: contain;
   border-radius: 50%;
-  visibility: visible;
+  font-size: 1vh;
+  color: rgba(0, 0, 0, 0);
 }
 
-.intern-face div img {
-  display: inline-block;
-  width: 100%;
-  top: 0;
-  left: 0;
-}
-.intern-face div {
-  border: blue solid;
-}
-.intern-face > div {
-  height: 100%;
-  width: 60%;
-  border-radius: 50%;
-  vertical-align:middle;
-  top: 0;
-  left: 0;
-  position: absolute;
-  visibility: hidden;
-  font-size: 1vh;
+.intern-face:hover div{
+  /* opacity: 0.2; */
+  color: rgba(0, 0, 0, 1);
+  transition: .5s ease;
 }
 
 .intern-face i {
