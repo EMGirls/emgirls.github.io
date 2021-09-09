@@ -496,15 +496,18 @@ footer {
   color: rgba(0, 0, 0, 1);
   transition: .5s ease;
 }
+
+
 .gen2Blobs{
   background-color:#ea9999ff;
   border: 3px white solid;
   color: white;
   border-radius: 10vw;
-  height:3vw;
+  height:8vw;
   align-items: auto;
-  width:40%;
+  width:80%;
   padding: 5%;
+  align-items: auto;
   vertical-align: middle;
-  display: inline-block; 
+  display: table-cell; 
 }
