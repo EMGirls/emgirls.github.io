@@ -452,7 +452,7 @@ footer {
 }
 
 .intern-face:hover div{
-  /* opacity: 0.2; */
+  background-image: url("/assets/images/intern/pinkblock.png");
   color: rgba(0, 0, 0, 1);
   transition: .5s ease;
 }
