@@ -476,7 +476,6 @@ footer {
 }
 
 .face{
-  background-image: url('/assets/images/intern/headshots/kayleechou.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -488,7 +487,11 @@ footer {
   display: inline-block;
   color: rgba(0, 0, 0, 0);
 }
-.face:hover{
+
+.faceImage{
+  background-image: url('/assets/images/intern/headshots/kayleechou.png');
+}
+.faceImage:hover{
   background-image: url("/assets/images/intern/pinkblock.png");
   color: rgba(0, 0, 0, 1);
   transition: .5s ease;
