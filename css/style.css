@@ -488,13 +488,38 @@ footer {
   color: rgba(0, 0, 0, 0);
 }
 
-.faceImage{
+.kaylee-chou{
   background-image: url('/assets/images/intern/headshots/kayleechou.png');
 }
-.faceImage:hover{
+
+.vanessa-herrera {
+  background-image: url("/assets/images/intern/headshots/vanessaherrera.png");
+}
+
+.olivia-stevenson {
+  background-image: url("/assets/images/intern/headshots/oliviastevenson.png");
+}
+
+.adya-chatterjee {
+  background-image: url("/assets/images/intern/headshots/adyachatterjee.png");
+}
+
+.leanne-kwong {
+  background-image: url("/assets/images/intern/headshots/leannekwong.png");
+}
+
+.jane-liu {
+  background-image: url("/assets/images/intern/headshots/janeliu.png");
+}
+
+.face:hover{
   background-image: url("/assets/images/intern/pinkblock.png");
   color: rgba(0, 0, 0, 1);
   transition: .5s ease;
+}
+
+.pink-text {
+  color: #ea9999;
 }
 .gen2Blobs{
   background-color:#ea9999ff;
