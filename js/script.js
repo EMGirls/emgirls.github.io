@@ -4,10 +4,16 @@ var countriesInvolved = document.getElementById("countries-involved");
 var mentorsInvolved = document.getElementById("mentors-involved");
 var impact = document.getElementById("impact");
 var slides = document.getElementById("slides");
+var slideLink = document.getElementById("slide-link-thing-idk-how-to-name-yes");
 
-const images = ["/assets/images/index/unknown.png", 
-    "/assets/images/index/emintern_team_graphic.png", 
-    "/assets/images/index/now_hiring_website_graphic.png"];
+const images = ["/assets/images/index/eec_graphic.png", 
+    "/assets/images/index/hiring_graphic.png", 
+    "/assets/images/index/intern_graphic.png"];
+const links = [
+    "https://docs.google.com/forms/d/e/1FAIpQLSfMoKw9dbHadiwa0K_tCwZULc2AW5LTsd-Movt2VLM6tkUwGA/viewform?usp=sf_link",
+    "https://forms.gle/agYrq8P9t32Noj23A",
+    "https://docs.google.com/forms/d/e/1FAIpQLSfXkJ0aN3XKaj0smOrK10441AspWXtAJf5bMjt7LcFXuSAnnQ/viewform?usp=sf_link"
+];
 let index = 0;
 
 let count = [0, 0, 0];
@@ -35,6 +41,7 @@ function counter() {
 function changeImage() {
     index %= images.length;
     slides.src = images[index];
+    slideLink.href = links[index];
 }
 
 function nextImage() {
@@ -44,5 +51,5 @@ function nextImage() {
 
 function idk() {
     nextImage();
-    setTimeout(idk, 2000);
+    setTimeout(idk, 5000);
 }
